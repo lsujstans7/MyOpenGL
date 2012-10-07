@@ -18,6 +18,8 @@
 		B0B275041621288300A917F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B275031621288300A917F6 /* Default-568h@2x.png */; };
 		B0B275071621288300A917F6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B275051621288300A917F6 /* MainStoryboard.storyboard */; };
 		B0B2750A1621288300A917F6 /* MyOpenGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B275091621288300A917F6 /* MyOpenGLViewController.m */; };
+		B0B2751A16212B3100A917F6 /* optionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B2751916212B3100A917F6 /* optionCell.m */; };
+		B0B27526162133A400A917F6 /* OpenGLContextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B27525162133A400A917F6 /* OpenGLContextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		B0B275061621288300A917F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B0B275081621288300A917F6 /* MyOpenGLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOpenGLViewController.h; sourceTree = "<group>"; };
 		B0B275091621288300A917F6 /* MyOpenGLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLViewController.m; sourceTree = "<group>"; };
+		B0B2751816212B3100A917F6 /* optionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = optionCell.h; sourceTree = "<group>"; };
+		B0B2751916212B3100A917F6 /* optionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = optionCell.m; sourceTree = "<group>"; };
+		B0B27524162133A400A917F6 /* OpenGLContextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLContextViewController.h; sourceTree = "<group>"; };
+		B0B27525162133A400A917F6 /* OpenGLContextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLContextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				B0B274FC1621288300A917F6 /* MyOpenGLAppDelegate.h */,
 				B0B274FD1621288300A917F6 /* MyOpenGLAppDelegate.m */,
 				B0B275051621288300A917F6 /* MainStoryboard.storyboard */,
+				B0B27524162133A400A917F6 /* OpenGLContextViewController.h */,
+				B0B27525162133A400A917F6 /* OpenGLContextViewController.m */,
+				B0B2751816212B3100A917F6 /* optionCell.h */,
+				B0B2751916212B3100A917F6 /* optionCell.m */,
 				B0B275081621288300A917F6 /* MyOpenGLViewController.h */,
 				B0B275091621288300A917F6 /* MyOpenGLViewController.m */,
 				B0B274F41621288300A917F6 /* Supporting Files */,
@@ -177,6 +187,8 @@
 				B0B274FA1621288300A917F6 /* main.m in Sources */,
 				B0B274FE1621288300A917F6 /* MyOpenGLAppDelegate.m in Sources */,
 				B0B2750A1621288300A917F6 /* MyOpenGLViewController.m in Sources */,
+				B0B2751A16212B3100A917F6 /* optionCell.m in Sources */,
+				B0B27526162133A400A917F6 /* OpenGLContextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

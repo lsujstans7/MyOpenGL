@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyOpenGLViewController : UIViewController
+@interface MyOpenGLViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *optionsTableView;
+
+@property (nonatomic, strong) NSMutableArray *options;
 
 @end
